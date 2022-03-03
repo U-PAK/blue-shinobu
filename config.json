@@ -1,0 +1,12 @@
+
+
+{
+    "clientId":"Bot ID", 
+    "token":"Bot Token",
+    "serverbotID2":"Server para el bot",
+    "sexoinvite":"Invitación de tu servidor o yo q se xd",
+    "canalogs":"ID del Canal en el que se enviarán los logs en el servidor <ServerBotID2> cuando raideen un server",
+    "rolvip":"ID rol VIP",
+    "roladmin":"Rol ADMIN",
+    "imgicon":"Imagen que se usará en los raids comunes para cambiar al servidor y banner"
+}
