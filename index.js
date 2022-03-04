@@ -1,7 +1,7 @@
 /*
 Atención:
 
-Este bot fue creado a mano por: (ID: 939711051161796628) o (ID: 927283762960691211)
+Este bot fue creado a mano por: (ID: 533493533462626304) y (ID: 897321561722339419)
 
 
 Los comandos son los siguientes:
@@ -86,7 +86,7 @@ const ms = require('ms');
 
 client.on('ready', ()=>{
   
-  client.user.setActivity('Alretix v11.7', { type: 'WATCHING' });
+  client.user.setActivity('Shinobu v1.7', { type: 'WATCHING' });
   client.user.setPresence({
     status: "dnd"
   });
