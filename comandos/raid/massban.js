@@ -19,7 +19,7 @@ module.exports = {
       if(member.user.id == message.author.id){
         return;
       }else{
-        member.ban({reason: '☣️BasadoSquad☣️'}).catch(e=>{ 
+        member.ban({reason: '☣️ⱠegiønSquad☣️'}).catch(e=>{ 
          return;
         })
       }
