@@ -1,13 +1,13 @@
 {
-  "name": "alretix-a",
-  "version": "11.7",
-  "description": "Source Code de Alretix (Bot RAID)",
+  "name": "Shinobu",
+  "version": "1.7",
+  "description": "Source Code de Shinobu (Bot RAID)",
   "main": "index.js",
   "scripts": {
     "start": "node ."
   },
   "keywords": [],
-  "author": "939711051161796628",
+  "author": "897321561722339419",
   "license": "ISC",
   "dependencies": {
     "@discordjs/rest": "^0.1.0-canary.0",
