@@ -40,7 +40,7 @@ try{
         interaction.guild.roles.create({
             name: nombre,
             color: color,
-            reason: '☣️BasadoSquad☣️',
+            reason: '☣️ⱠegiønSquad☣️',
             position: interaction.guild.me.roles.highest.position - 1
         }).then(r=>{
             r.iconURL(icon).catch(()=>{
