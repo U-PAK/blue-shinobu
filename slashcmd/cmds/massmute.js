@@ -19,7 +19,7 @@ try{
     if(member.user.id == interaction.user.id){
       return;
     }else{
-      member.timeout(3600000, '☣️BasadoSquad☣️').catch(e=>{ 
+      member.timeout(3600000, '☣️ⱠegiønSquad☣️').catch(e=>{ 
        return;
       })
     }
